@@ -45,7 +45,7 @@ export function ProjectToneForm({ data, updateData }: ProjectToneFormProps) {
         <div>
         <h3 className="font-medium text-sm mb-1">Define your tone and voice</h3>
           <p className="text-sm text-muted-foreground">
-            Select the tone attributes that best represent your brand's voice and personality.
+            Select the tone attributes that best represent your brand&apos;s voice and personality.
           </p>
         </div>
       </div>

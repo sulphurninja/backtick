@@ -1,7 +1,7 @@
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Rocket, Target } from "lucide-react";
+import { Target } from "lucide-react";
 
 type ProjectData = {
   goal: string;
@@ -37,7 +37,7 @@ export function ProjectGoalForm({ data, updateData }: ProjectGoalFormProps) {
         <div>
           <h3 className="font-medium text-sm mb-1">Define your project goals</h3>
           <p className="text-sm text-muted-foreground">
-            Help your AI team understand what you're trying to achieve and who you're building for.
+            Help your AI team understand what you&apos;re trying to achieve and who you&apos;re building for.
           </p>
         </div>
       </div>

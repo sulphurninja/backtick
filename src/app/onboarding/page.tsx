@@ -129,7 +129,7 @@ export default function OnboardingPage() {
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold mb-1">Create your project</h1>
-                <p className="text-muted-foreground">Let's set up your AI team workspace</p>
+                <p className="text-muted-foreground">Let&apos;s set up your AI team workspace</p>
               </div>
               <OnboardingProgress currentStep={currentStep} steps={steps} />
             </div>

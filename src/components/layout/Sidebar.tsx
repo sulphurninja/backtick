@@ -45,7 +45,7 @@ export default function Sidebar() {
 
       <div className="mt-auto p-4 border-t border-sidebar-border">
         <div className="rounded-md p-3 bg-sidebar-accent/30">
-          <p className="text-xs font-medium text-sidebar-foreground/80 mb-1">Talk to a team even if you don't have one</p>
+          <p className="text-xs font-medium text-sidebar-foreground/80 mb-1">Talk to a team even if you don&apos;t have one</p>
           <p className="text-xs text-sidebar-foreground/60">v0.1 Alpha</p>
         </div>
       </div>

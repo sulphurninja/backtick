@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import {
   PlusCircle,
   MessageSquare,
@@ -250,7 +250,7 @@ export default function DashboardPage() {
             <Card className="border border-border/40">
               <CardHeader>
                 <CardTitle>Recent Activities</CardTitle>
-                <CardDescription>Your team's latest work across all projects</CardDescription>
+                <CardDescription>Your team&apos;s latest work across all projects</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">

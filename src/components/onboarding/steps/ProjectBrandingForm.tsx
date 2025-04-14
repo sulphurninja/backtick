@@ -1,8 +1,7 @@
 import { Label } from "@/components/ui/label";
-import { Palette, Lightbulb } from "lucide-react";
+import { Palette } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { HexColorPicker } from "react-colorful";
-import type { ReactNode } from "react";
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
@@ -49,7 +48,7 @@ export function ProjectBrandingForm({ data, updateData }: ProjectBrandingFormPro
       <div className="bg-primary/5 p-4 rounded-lg border border-primary/10 flex gap-3">
         <Palette className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
         <div>
-          <h3 className="font-medium text-sm mb-1">Define your brand's visual style</h3>
+          <h3 className="font-medium text-sm mb-1">Define your brand&apos;s visual style</h3>
           <p className="text-sm text-muted-foreground">
             Choose colors and personality traits that represent your brand identity.
           </p>
